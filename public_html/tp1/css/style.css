@@ -1,0 +1,12 @@
+.custom-table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.custom-text-center {
+    text-align: center;
+}
+
+.custom-ml-1 {
+    margin-left: 0.5rem;
+}
