@@ -7,80 +7,96 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h1>Introduction à la programmation Web</h1>
-        <p>
-            Cette page a pour objectif de faire le point sur <i class="custom-text-red">quelques informations en Html/Css</i>.
-        </p>
 
-        <!-- HTML ET CSS : tableau HTML/CSS -->
-        <h2>HTML et CSS</h2>
-        <table class="custom-table">
-            <caption class="custom-ml-1"><span class="sigle">HTML</div> ou <span class="sigle">CSS</div> ?</caption>
-            <!-- Ligne 1 -->
-            <tr>
-                <td></td>
-                <td><strong class="sigle">HTML</strong></td>
-                <td><strong class="sigle">CSS</strong></td>
-            </tr>
-            <!-- Ligne 2 -->
-            <tr>
-                <td>titre de la page</td>
-                <td>x</td>
-                <td></td>
-            </tr>
-            <!-- Ligne 3 -->
-            <tr>
-                <td>couleur du titre</td>
-                <td></td>
-                <td>x</td>
-            </tr>
-            <!-- Ligne 4 -->
-            <tr>
-                <td>liste numérotée</td>
-                <td>x</td>
-                <td></td>
-            </tr>
-            <!-- Ligne 5 -->
-            <tr>
-                <td>largeur du menu</td>
-                <td></td>
-                <td>x</td>
-            </tr>
-        </table>
+        <!-- Header -->
+        <header class="custom-header">
+            <h1 class="custom-text-center">Introduction à la programmation Web</h1>
+        </header>
 
-        <!-- Démonstration : Vidéo de présentation -->
-        <h2>Démonstration</h2>
+        <!-- Navigation bar -->
+        <nav class="sidenav">
+            <a href="index.html">Accueil</a>
+            <a href="html/page test.html">Test</a>
+        </nav>
 
-        <p>Une petite vidéo de présentation.</p>
-
-        <div>
-            <video id="w3schools-video" controls>
-                <!-- <source src="mp4/w3schools_tab_example.mp4" type="video/mp4"> -->
-                <source src="ogv/w3schools_tab_example.ogv" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-
-        <div class="custom-mt-1">
-            <a href="html/page test.html">
-                Lien vers ma page de test
-            </a>
-        </div>
-
-        <!-- Références : liens utiles -->
-        <h2>Références</h2>
-        <p>
-            Quelques liens utiles:
-        </p>
-        <ul>
-            <li><img class="w3c-logo" src="png/w3c.png" alt="W3C Logo"><a href="https://www.w3.org/">Site du <span class="sigle">W3C</div></a>
+        <main>
+            <p>
+                Cette page a pour objectif de faire le point sur <i class="custom-text-red">quelques</i> informations en <span class="sigle">HTML/CSS</span>.
+            </p>
+    
+            <aside>
+                <!-- Références : liens utiles -->
+                <h2>Références</h2>
+                <p>
+                    Quelques liens utiles:
+                </p>
                 <ul>
-                    <li><a href="https://validator.w3.org/">validation <span class="sigle">html</div></a></li>
-                    <li><a href="https://jigsaw.w3.org/css-validator/">validation <span class="sigle">css</div></a></li>
+                    <li><img class="w3c-logo" src="png/w3c.png" alt="W3C Logo"><a href="https://www.w3.org/">Site du <span class="sigle">W3C</div></a>
+                        <ul>
+                            <li><a href="https://validator.w3.org/">validation <span class="sigle">html</div></a></li>
+                            <li><a href="https://jigsaw.w3.org/css-validator/">validation <span class="sigle">css</div></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://www.w3.org/WAI/">Web Accessibility Initiative</a></li>
                 </ul>
-            </li>
-            <li><a href="https://www.w3.org/WAI/">Web Accessibility Initiative</a></li>
-        </ul>
+            </aside>
+    
+            <!-- HTML ET CSS : tableau HTML/CSS -->
+            <h2>HTML et CSS</h2>
+    
+            <table class="custom-table">
+                <caption class="custom-ml-1"><span class="sigle">HTML</div> ou <span class="sigle">CSS</div> ?</caption>
+                <!-- Ligne 1 -->
+                <tr>
+                    <td></td>
+                    <td><strong class="sigle">HTML</strong></td>
+                    <td><strong class="sigle">CSS</strong></td>
+                </tr>
+                <!-- Ligne 2 -->
+                <tr>
+                    <td>titre de la page</td>
+                    <td>x</td>
+                    <td></td>
+                </tr>
+                <!-- Ligne 3 -->
+                <tr>
+                    <td>couleur du titre</td>
+                    <td></td>
+                    <td>x</td>
+                </tr>
+                <!-- Ligne 4 -->
+                <tr>
+                    <td>liste numérotée</td>
+                    <td>x</td>
+                    <td></td>
+                </tr>
+                <!-- Ligne 5 -->
+                <tr>
+                    <td>largeur du menu</td>
+                    <td></td>
+                    <td>x</td>
+                </tr>
+            </table>
+    
+            <!-- Démonstration : Vidéo de présentation -->
+            <h2>Démonstration</h2>
+    
+            <p>Une petite vidéo de présentation.</p>
+    
+            <div>
+                <video id="w3schools-video" controls>
+                    <!-- <source src="mp4/w3schools_tab_example.mp4" type="video/mp4"> -->
+                    <source src="ogv/w3schools_tab_example.ogv" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+    
+            <div class="custom-mt-1">
+                <a href="html/page test.html">
+                    Lien vers ma page de test
+                </a>
+            </div>
+        </main>
 
     </body>
 </html>
