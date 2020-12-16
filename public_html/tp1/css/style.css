@@ -1,5 +1,5 @@
 .custom-table, tr, td {
-    border: 1px solid black;
+    border: 1px solid grey;
     border-collapse: collapse;
 }
 
@@ -9,4 +9,21 @@
 
 .custom-ml-1 {
     margin-left: 0.5rem;
+}
+
+.w3c-logo {
+    width:50px;
+    height:60px;
+}
+
+.main-title {
+    color: #58acfa;
+}
+
+.custom-text-red {
+    color: red;
+}
+
+.sigle {
+    font-style: italic;
 }

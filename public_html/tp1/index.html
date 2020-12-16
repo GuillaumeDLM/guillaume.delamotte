@@ -9,17 +9,17 @@
     <body>
         <h1>Introduction à la programmation Web</h1>
         <p>
-            Cette page a pour objectif de faire le point sur <i>quelques informations en Html/Css</i>.
+            Cette page a pour objectif de faire le point sur <i class="custom-text-red">quelques informations en Html/Css</i>.
         </p>
 
         <!-- HTML ET CSS : tableau HTML/CSS -->
         <h2>HTML et CSS</h2>
         <table class="custom-table">
-            <caption class="custom-ml-1">HTML ou CSS ?</caption>
+            <caption class="custom-ml-1"><span class="sigle">HTML</div> ou <span class="sigle">CSS</div> ?</caption>
             <tr>
                 <td></td>
-                <td><strong>HTML</strong></td>
-                <td><strong>CSS</strong></td>
+                <td><strong class="sigle">HTML</strong></td>
+                <td><strong class="sigle">CSS</strong></td>
             </tr>
             <tr>
                 <td>titre de la page</td>
@@ -48,7 +48,11 @@
 
         <p>Une petite vidéo de présentation.</p>
 
-        
+        <video width=”320” height=”240” controls>
+            <!-- <source src="mp4/w3schools_tab_example.mp4" type="video/mp4"> -->
+            <source src="ogv/w3schools_tab_example.ogv" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
 
         <a href="html/page test.html">
             Lien vers ma page de test
@@ -56,6 +60,18 @@
 
         <!-- Références : liens utiles -->
         <h2>Références</h2>
+        <p>
+            Quelques liens utiles:
+        </p>
+        <ul>
+            <li><img class="w3c-logo" src="png/w3c.png" alt="W3C Logo"><a href="https://www.w3.org/">Site du <span class="sigle">W3C</div></a>
+                <ul>
+                    <li><a href="https://validator.w3.org/">validation <span class="sigle">html</div></a></li>
+                    <li><a href="https://jigsaw.w3.org/css-validator/">validation <span class="sigle">css</div></a></li>
+                </ul>
+            </li>
+            <li><a href="https://www.w3.org/WAI/">Web Accessibility Initiative</a></li>
+        </ul>
 
     </body>
 </html>
