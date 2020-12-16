@@ -44,3 +44,13 @@
 .sigle {
     font-style: italic;
 }
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color:cyan;
+    text-decoration: underline;
+}
