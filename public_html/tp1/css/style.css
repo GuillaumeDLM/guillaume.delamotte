@@ -1,12 +1,66 @@
-.custom-table, tr, td {
-    border: 1px solid grey;
-    border-collapse: collapse;
-}
+/*
+ * Text
+ */
 
 .custom-text-center {
     text-align: center;
 }
 
+.custom-text-red {
+    color: red;
+}
+
+.sigle {
+    font-style: italic;
+}
+
+.main-title {
+    color: #58acfa;
+}
+
+/*
+ * Links
+ */
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color:cyan;
+    text-decoration: underline;
+}
+
+/*
+ * Table
+ */
+ .custom-table, tr, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+/*
+ * Videos
+ */
+ #w3schools-video {
+    width: 320px;
+    height: 240px;
+}
+
+/*
+ * Images
+ */
+.w3c-logo {
+    width:50px;
+    height:25px;
+}
+
+/*
+ * Spaces
+ */
+
+/* Margins 1 */
 .custom-mt-1 {
     margin-top: 0.5rem;
 }
@@ -21,36 +75,4 @@
 
 .custom-ml-1 {
     margin-left: 0.5rem;
-}
-
-.w3c-logo {
-    width:50px;
-    height:25px;
-}
-
-.main-title {
-    color: #58acfa;
-}
-
-#w3schools-video {
-    width: 320px;
-    height: 240px;
-}
-
-.custom-text-red {
-    color: red;
-}
-
-.sigle {
-    font-style: italic;
-}
-
-a {
-    color: blue;
-    text-decoration: none;
-}
-
-a:hover {
-    color:cyan;
-    text-decoration: underline;
 }
