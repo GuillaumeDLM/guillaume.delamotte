@@ -11,9 +11,10 @@ class ClientHydrator {
   {
     $client = new ClientEntity();
     $client
-      ->setId($data['num_client'])
-      ->setLastName($data['nom_client'])
-      ->setDebit($data['debit_client']);
+      ->setId($data['n_client'])
+      ->setNomClient($data['nom_client'])
+      ->setPrenomClient($data['prenom_client'])
+      ->setDebitClient($data['debit_client']);
     return $client;
   }
 }

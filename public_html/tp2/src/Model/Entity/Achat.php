@@ -7,10 +7,10 @@ class Achat {
   /**
    * @var int
    */
-  private $numAchat;
+  private $nAchat;
 
   /**
-   * @var int
+   * @var double
    */
   private $montantAchat;
 
@@ -22,17 +22,17 @@ class Achat {
   /**
    * @var int
    */
-  private $idClient;
+  private $client;
 
 
-  public function getNum() 
+  public function getId() 
   {
-    return $this->numAchat;
+    return $this->nAchat;
   }
 
-  public function setNum(int $num)
+  public function setId(int $num)
   {
-    $this->numAchat = $num;
+    $this->nAchat = $num;
     return $this;
   }
 
@@ -62,12 +62,12 @@ class Achat {
 
   public function getClient()
   {
-    return $this->idClient;
+    return $this->client;
   }
 
   public function setClient($client)
   {
-    $this->idClient = $client;
+    $this->client = $client;
     return $this;
   }
 

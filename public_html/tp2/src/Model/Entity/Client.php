@@ -7,15 +7,20 @@ class Client {
     /**
      * @var int
      */
-  private $idClient;
+  private $nClient;
 
     /**
      * @var string
      */
-  private $lastNameClient;
+  private $nomClient;
 
     /**
-     * @var int
+     * @var string
+     */
+  private $prenomClient;
+
+    /**
+     * @var float
      */
   private $debitClient;
 
@@ -24,43 +29,61 @@ class Client {
     /**
      * @return mixed
      */
-    public function getId ()
+    public function getId()
     {
-        return $this->idClient;
+        return $this->nClient;
     }
 
     /**
      * @param mixed $id
      * @return User
      */
-    public function setId ($id)
+    public function setId($id)
     {
-        $this->idClient = $id;
+        $this->nClient = $id;
         return $this;
     }
 
     /**
      * @return mixed
      */
-    public function getLastName ()
+    public function getNomClient()
     {
-        return $this->lastNameClient;
+        return $this->nomClient;
     }
 
     /**
      * @param mixed $login
      * @return User
      */
-    public function setLastName ($lastName)
+    public function setNomClient($nomClient)
     {
-        $this->lastNameClient = $lastName;
+        $this->nomClient = $nomClient;
         return $this;
     }
 
     /**
      * @return mixed
      */
-    public function getDebit ()
+    public function getPrenomClient()
+    {
+        return $this->prenomClient;
+    }
+
+    /**
+     * @param mixed $login
+     * @return User
+     */
+    public function setPrenomClient($prenomClient)
+    {
+        $this->prenomClient = $prenomClient;
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDebitClient()
     {
         return $this->debitClient;
     }
@@ -69,11 +92,10 @@ class Client {
      * @param mixed $debit
      * @return User
      */
-    public function setDebit ($debit)
+    public function setDebitClient($debitClient)
     {
-        $this->debitClient = $debit;
+        $this->debitClient = $debitClient;
         return $this;
     }
-
 
 }
