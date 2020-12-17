@@ -1,0 +1,3 @@
+# Execute SQL
+docker exec -i ensiie_web_mysql mysql -uroot -proot tpphp < create_client.sql
+docker exec -i ensiie_web_mysql mysql -uroot -proot tpphp < fill_clients_inserts.sql

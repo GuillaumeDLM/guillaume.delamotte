@@ -1,0 +1,27 @@
+version: '3'
+services:
+    db:
+      container_name: ensiie_web_mysql
+      restart: always
+      image: mysql:latest
+      environment:
+        - PMA_ARBITRARY=1
+        - MYSQL_ROOT_PASSWORD=root
+      ports:
+        # just if you also want to access it directly from you host
+        # node neede for phpmyadmin
+        - "3307:3306"
+      volumes:
+        - /Applications/MAMP/htdocs/guillaume.delamotte/public_html/tp2/mysqlconf:/etc/mysql/conf.d
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: phpmyadmin
+        depends_on:
+            - db
+        environment:
+        - UPLOAD_LIMIT=256MB
+        restart: always
+        ports:
+        - 8081:80
+        volumes:
+        - /sessions

@@ -1,0 +1,14 @@
+INSERT INTO client VALUES ('1','Phillips','Patience','30');
+INSERT INTO client VALUES ('2','Kent','Clark','3.4');
+INSERT INTO client VALUES ('3','Wayne','Bruce','2');
+INSERT INTO client VALUES ('4','Parker','Peter','24');
+INSERT INTO client VALUES ('5','Prince','Diana','48.3');
+INSERT INTO client VALUES ('6','Dredd','Joseph','2.3');
+INSERT INTO client VALUES ('7','Scott','Alan','3.4');
+INSERT INTO client VALUES ('8','Rogers','Steven','3');
+INSERT INTO client VALUES ('9','Wilson','Wade','45');
+INSERT INTO client VALUES ('10','Murdock','Matthew','37');
+INSERT INTO client VALUES ('11','Natchios','Elektra','4');
+INSERT INTO client VALUES ('12','Blake','Donald','1');
+INSERT INTO client VALUES ('13','Stark','Anthony','1.4');
+INSERT INTO client VALUES ('14','Banner','Bruce','13');

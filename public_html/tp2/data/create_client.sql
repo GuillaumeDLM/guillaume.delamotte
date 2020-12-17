@@ -15,5 +15,3 @@ nom_client VARCHAR(20),
 prenom_client VARCHAR(20),
 debit_client FLOAT,
 CONSTRAINT pk_client PRIMARY KEY(n_client));
-
-grant all privileges on client to tpphp;
